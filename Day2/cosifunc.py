@@ -1,0 +1,1 @@
+import matplotlib.pyplot as pltimport numpy as npFs=200f=5sample=200x=np.arange(sample)y=np.cos(2*np.pi*f*x/Fs)plt.plot(x,y)plt.xlabel('sample(n)')plt.ylabel('voltage(v)')plt.show()
